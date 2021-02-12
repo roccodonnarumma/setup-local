@@ -130,3 +130,7 @@ function chpwd() {
 
 unsetopt inc_append_history
 unsetopt share_history
+
+export PATH=$PATH:$HOME/go/bin
+
+source <(kubectl completion zsh)
